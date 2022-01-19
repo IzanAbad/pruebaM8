@@ -2,7 +2,7 @@
 session_start();
 
 session_destroy();
-header("location: inici.php");
+header("location: index.php");
 
 
  ?>
@@ -15,6 +15,6 @@ header("location: inici.php");
  </head>
  <body>
  	<h3>Has sortit de la sesio</h3>
- 	<p><a href="inici.php">Tornar a la pagina 1</a></p>
+ 	<p><a href="index.php">Tornar a la pagina 1</a></p>
  </body>
  </html>
