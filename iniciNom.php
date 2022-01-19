@@ -26,14 +26,14 @@ if(isset($_SESSION['nom'])){
 
 			echo "No hi ha cap nom a la sessio<br>";
 			echo "ets a la pagina 2";
-			echo '<p><a href="inici.php">Anar a la pagina 1</a></p>';
+			echo '<p><a href="index.php">Anar a la pagina 1</a></p>';
 
 		}
 		else{
 
 			echo "Hola $nom<br>";
 			echo "ets a la pagina 2";
-			echo '<p><a href="inici.php">Anar a la pagina 1</a></p>';
+			echo '<p><a href="index.php">Anar a la pagina 1</a></p>';
 		}
 	
 	
